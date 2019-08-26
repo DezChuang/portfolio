@@ -1,0 +1,13 @@
+#app {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+#ct_footer_container {
+  grid-row-start: -1;
+}
+
+// $desktopHD | $tablet | $mobile
+// @include devicepoint($desktopHD) {
+// }
